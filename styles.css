@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+
+.navbar {
+    width: 100%;
+    background-color: black;
+    position: static;
+    top: 0;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    gap: 200px;
+    padding-right: 440px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: blue;
+}
+
