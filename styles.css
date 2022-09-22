@@ -1,5 +1,10 @@
-body{
-    margin: 0;
+#myVideo {
+    position: fixed;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 .navbar {
@@ -14,7 +19,7 @@ ul {
     display: flex;
     justify-content: end;
     gap: 200px;
-    padding-right: 440px;
+    margin-right: 480px;
 }
 
 a{
@@ -23,6 +28,8 @@ a{
 }
 
 a:hover{
-    color: blue;
+    color: red;
 }
+
+
 
