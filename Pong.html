@@ -5,6 +5,12 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <video autoplay muted loop id="myVideo">
+     <source src="purple.mp4" type="video/mp4">
+    </video>
+</body>
+
+<body>
 <div class = "navbar">
     <ul>
         <h1><li><a href = "index.html">Home</a></li></h1>
@@ -12,26 +18,19 @@
         <h1><li><a href = "BlankPage.html">Blank Page</a></li></h1>
     </ul>
 </div>
+</body>
 
-<style>
-    body {
-        background-image: url("http://iliketowastemytime.com/sites/default/files/outer-space-hd-wallpaper.jpg");
-    }
-</style>
-
-<div style = "position:relative; left: 480px; top:5px;" style="text-align: center;">
+<div style = "position:relative; margin-left: 480px;">
     <canvas id="gameCanvas" width="800" height="600"></canvas>
 </div>
 
-
-<span style="color: white;" style = "position:relative; top:100px;">
+<div style="position: relative; margin-top: 20px;">
     <marquee direction="right"
              behavior="alternate"
              style="border:white 5px SOLID">
-        <h2> Michael Cuebas</h2>
+        <h2 style="color: white;"> Michael Cuebas</h2>
     </marquee>
-</span>
-
+</div>
 
 <script src="PongJS.js">
 

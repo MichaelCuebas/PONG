@@ -56,15 +56,10 @@
     });
 }
 
-    function callBoth() {
-    moveEverything();
-    drawEverything();
-}
     function ballReset() {
     if(player1Score >= WINNING_SCORE || player2Score >= WINNING_SCORE) {
     showingWinScreen = true;
 }
-
     ballX = canvas.width / 2;
     ballY = canvas.height / 2;
     ballSpeedX = -ballSpeedX;
